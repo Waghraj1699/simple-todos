@@ -11,6 +11,7 @@
   color: #000000;
   font-family: 'Roboto';
   font-size: 16px;
+  width: 400px;
 }
 
 @media screen and (min-width) {
@@ -38,4 +39,69 @@
     padding: 8px 16px 8px 16px;
     margin-left: 32px;
   }
+}
+
+.save-button {
+  background-color: #ffffff;
+  color: rgb(95, 57, 184);
+  font-family: 'Roboto';
+  font-size: 12px;
+  border-radius: 8px;
+  border: 1px solid rgb(95, 57, 184);
+  padding: 4px 8px 4px 8px;
+  margin-left: 16px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width) {
+  .save-button {
+    font-size: 18px;
+    padding: 8px 16px 8px 16px;
+    margin-left: 32px;
+  }
+}
+
+.edit-btn {
+  background-color: #ffffff;
+  color: rgb(8, 44, 4);
+  font-family: 'Roboto';
+  font-size: 12px;
+  border-radius: 8px;
+  border: 1px solid rgb(8, 44, 4);
+  padding: 4px 8px 4px 8px;
+  margin-left: 16px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width) {
+  .edit-btn {
+    font-size: 18px;
+    padding: 8px 16px 8px 16px;
+    margin-left: 32px;
+  }
+}
+
+.input-checkbox {
+  width: 15px;
+  margin-right: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.edit-input {
+  width: 250px;
+  margin-right: 20px;
+  height: 30px;
+  border-radius: 5px;
+  border-width: 1px;
+  padding-left: 10px;
+}
+
+.todo-items-list {
+  display: flex;
+  align-items: center;
 }
